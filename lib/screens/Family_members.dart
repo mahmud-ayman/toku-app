@@ -8,7 +8,7 @@ class FamilyMembers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 92, 65, 55),
+        backgroundColor: Colors.green,
         title: Text(
           'Family Members',
           style: TextStyle(color: Colors.white),

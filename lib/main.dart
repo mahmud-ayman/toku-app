@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:toku/screens/Family_members.dart';
 import 'package:toku/screens/Member_screen.dart';
-import 'package:toku/screens/homeScreen.dart';
+import 'package:toku/screens/colors_screen.dart';
+import 'package:toku/screens/home_Screen.dart';
 import 'package:toku/screens/phrases_screen.dart';
 
 void main() {
@@ -21,7 +22,8 @@ class tokuApp extends StatelessWidget {
         Homescreen.id: (context) => Homescreen(),
         MemberScreen.id: (context) => MemberScreen(),
         FamilyMembers.id: (context) => FamilyMembers(),
-        FamilyMembers.id: (context) => PhrasesScreen(),
+        PhrasesScreen.id: (context) => PhrasesScreen(),
+        ColorsScreen.id: (context) => ColorsScreen(),
       },
     );
   }

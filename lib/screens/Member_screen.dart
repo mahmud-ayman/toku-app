@@ -8,7 +8,7 @@ class MemberScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 92, 65, 55),
+        backgroundColor: const Color.fromARGB(255, 255, 137, 34),
         title: Text(
           'Members',
           style: TextStyle(color: Colors.white),

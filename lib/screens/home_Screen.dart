@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:toku/screens/Member_screen.dart';
-import 'package:toku/screens/colors_screens.dart';
+import 'package:toku/screens/colors_screen.dart';
 import 'package:toku/widgets/categories.dart';
 
 class Homescreen extends StatelessWidget {
@@ -39,7 +39,7 @@ class Homescreen extends StatelessWidget {
             ),
             categories(
               onTap: () {
-                Navigator.pushNamed(context, ColorsScreens.id);
+                Navigator.pushNamed(context, ColorsScreen.id);
               },
               color: Colors.blue,
               text: 'Colors',

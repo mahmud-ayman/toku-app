@@ -8,7 +8,7 @@ class PhrasesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 92, 65, 55),
+        backgroundColor: Colors.purple,
         title: Text(
           'Phrases',
           style: TextStyle(color: Colors.white),

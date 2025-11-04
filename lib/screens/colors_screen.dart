@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ColorsScreens extends StatelessWidget {
-  const ColorsScreens({Key? key}) : super(key: key);
+class ColorsScreen extends StatelessWidget {
+  const ColorsScreen({Key? key}) : super(key: key);
   static const String id = 'ColorsScreens';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 92, 65, 55),
+        backgroundColor: Colors.blue,
         title: Text(
           'Colors',
           style: TextStyle(color: Colors.white),
