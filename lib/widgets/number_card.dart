@@ -12,15 +12,26 @@ class number_card extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(bottom: 3, top: 2, left: 3, right: 3),
       decoration: BoxDecoration(
+        borderRadius: BorderRadius.all(Radius.circular(8)),
         border: Border.all(color: Colors.brown, width: 2),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.5),
+            spreadRadius: 2,
+            blurRadius: 5,
+            offset: const Offset(0, 3), // changes position of shadow
+          ),
+        ],
         color: const Color.fromARGB(255, 255, 223, 186),
-        borderRadius: BorderRadius.circular(8),
       ),
       height: 85,
       child: Row(
         children: [
           Container(
-              color: const Color.fromARGB(255, 217, 175, 84),
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 217, 175, 84),
+                borderRadius: BorderRadius.all(Radius.circular(8)),
+              ),
               child: Image.asset(number.image)),
           const Spacer(flex: 1),
           Column(

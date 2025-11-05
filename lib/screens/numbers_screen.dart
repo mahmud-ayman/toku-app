@@ -28,6 +28,7 @@ class NumberScreen extends StatelessWidget {
             style: TextStyle(color: Colors.white),
           ),
         ),
+        backgroundColor: const Color.fromARGB(255, 210, 184, 137),
         body: ListView(
           children: [
             number_card(number: number1),
