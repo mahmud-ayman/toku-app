@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:toku/screens/Family_members.dart';
 import 'package:toku/screens/numbers_screen.dart';
 import 'package:toku/screens/colors_screen.dart';
+import 'package:toku/screens/phrases_screen.dart';
 import 'package:toku/widgets/categories.dart';
 
 class Homescreen extends StatelessWidget {
@@ -32,7 +34,7 @@ class Homescreen extends StatelessWidget {
                 //   return NumberScreen();
                 // }))
                 // ;
-                Navigator.pushNamed(context, NumberScreen.id);
+                Navigator.pushNamed(context, FamilyMembers.id);
               },
               color: Colors.green,
               text: 'Family Members',
@@ -46,7 +48,7 @@ class Homescreen extends StatelessWidget {
             ),
             categories(
               onTap: () {
-                Navigator.pushNamed(context, 'phrasesScreen');
+                Navigator.pushNamed(context, PhrasesScreen.id);
               },
               color: Colors.purple,
               text: 'phrases',

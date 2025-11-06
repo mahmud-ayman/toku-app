@@ -17,7 +17,7 @@ class tokuApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: Homescreen(),
-      initialRoute: NumberScreen.id,
+      initialRoute: Homescreen.id,
       routes: {
         Homescreen.id: (context) => Homescreen(),
         NumberScreen.id: (context) => NumberScreen(),
