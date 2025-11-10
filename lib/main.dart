@@ -17,12 +17,12 @@ class tokuApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: Homescreen(),
-      initialRoute: Homescreen.id,
+      initialRoute: HomeScreen.id,
       routes: {
-        Homescreen.id: (context) => Homescreen(),
+        HomeScreen.id: (context) => HomeScreen(),
         NumberScreen.id: (context) => NumberScreen(),
         FamilyMembers.id: (context) => FamilyMembers(),
-        PhrasesScreen.id: (context) => PhrasesScreen(),
+        phrasesScreen.id: (context) => phrasesScreen(),
         ColorsScreen.id: (context) => ColorsScreen(),
       },
     );

@@ -66,13 +66,13 @@ class FamilyMembers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 121, 184, 12),
+          backgroundColor: const Color.fromARGB(255, 81, 93, 61),
           title: const Text(
             'Family Members',
             style: TextStyle(color: Colors.white),
           ),
         ),
-        backgroundColor: const Color.fromARGB(255, 210, 184, 137),
+        backgroundColor: const Color.fromARGB(255, 103, 129, 83),
         body: ListView.builder(
           itemCount: family.length,
           itemBuilder: (context, index) {

@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:toku/moudels/number_model.dart';
 import 'package:toku/widgets/number_card.dart';
@@ -39,7 +37,7 @@ class NumberScreen extends StatelessWidget {
       numm: '5',
       image: "assets/images/numbers/number_five.png",
       sound: 'sounds/numbers/number_five_sound.mp3',
-      jpName: 'go',
+      jpName: 'ato',
       enName: 'five',
     ),
     DataModel(
@@ -83,7 +81,7 @@ class NumberScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: const Color.fromARGB(255, 255, 137, 34),
+          backgroundColor: const Color.fromARGB(255, 161, 112, 70),
           title: const Text(
             'Number',
             style: TextStyle(color: Colors.white),
